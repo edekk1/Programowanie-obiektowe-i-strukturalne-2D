@@ -4,7 +4,7 @@ struct bankAccount
 {
 	double balance; // stan konta
 	std::string owner; //w³aœciciel
-	std::string currency; // waluta
+	std::string currency; // walutaa
 };
 
 void accountInformation(bankAccount &account)
