@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstObjectConsoleApplicati
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadAndWriteOnFilesConsoleApplication", "ReadAndWriteOnFilesConsoleApplication\ReadAndWriteOnFilesConsoleApplication.vcxproj", "{6213DB36-CD04-4055-A328-12ADB0E11A50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringConsoleApplication", "StringConsoleApplication\StringConsoleApplication.vcxproj", "{06919DE9-6828-47F2-86BA-18703DC945F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -159,6 +161,14 @@ Global
 		{6213DB36-CD04-4055-A328-12ADB0E11A50}.Release|x64.Build.0 = Release|x64
 		{6213DB36-CD04-4055-A328-12ADB0E11A50}.Release|x86.ActiveCfg = Release|Win32
 		{6213DB36-CD04-4055-A328-12ADB0E11A50}.Release|x86.Build.0 = Release|Win32
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Debug|x64.ActiveCfg = Debug|x64
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Debug|x64.Build.0 = Debug|x64
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Debug|x86.Build.0 = Debug|Win32
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Release|x64.ActiveCfg = Release|x64
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Release|x64.Build.0 = Release|x64
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Release|x86.ActiveCfg = Release|Win32
+		{06919DE9-6828-47F2-86BA-18703DC945F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +194,7 @@ Global
 		{E58C06F5-1255-4632-BB75-1EC38828E67C} = {6A3A5C9F-DD69-434E-A36B-51E187577D99}
 		{0D7DE798-CA9A-458A-AAE3-C3FD9BD4AF69} = {E58C06F5-1255-4632-BB75-1EC38828E67C}
 		{6213DB36-CD04-4055-A328-12ADB0E11A50} = {E58C06F5-1255-4632-BB75-1EC38828E67C}
+		{06919DE9-6828-47F2-86BA-18703DC945F3} = {E58C06F5-1255-4632-BB75-1EC38828E67C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34C36E17-B9A8-4CB1-99CD-669B47983D88}
