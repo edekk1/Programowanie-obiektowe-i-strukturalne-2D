@@ -4,11 +4,12 @@
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
-	BankAccount firstAccount;
-	firstAccount.balance = 10000;
-	firstAccount.owner = "Jan Kowalski";
-	firstAccount.currency = "z³";
-	
+	BankAccount firstAccount(10000, "Jan Kowalski", "z³");//konstruktor z parametrami
+	//firstAccount.SetBalance(10000);
+	//firstAccount.balance = 10000;
+	//firstAccount.owner = "Jan Kowalski";
+	//firstAccount.currency = "z³";
+
 	firstAccount.AccountInformation();
 	//accountInformation(firstAccount);
 
@@ -18,9 +19,10 @@ int main()
 	firstAccount.AccountInformation();
 
 	BankAccount secondAccount;
-	secondAccount.balance = 15000;
-	secondAccount.owner = "Ewa Kowalska";
-	secondAccount.currency = "z³";
+	//secondAccount.SetBalance(15000);
+	//secondAccount.balance = 15000;
+	//secondAccount.owner = "Ewa Kowalska";
+	//secondAccount.currency = "z³";
 
 	secondAccount.AccountInformation();
 
@@ -32,10 +34,14 @@ int main()
 
 	firstAccount.AccountInformation();
 
-	secondAccount.AccountInformation();  
+	secondAccount.AccountInformation();
 }
 
 /*
+
+Konstruktor - to metoda z regu³y publicza jest wywo³ywana tylko raz podczas
+tworzenia obiektu automatycznie, potem siê nie da jej wywo³aæ, bez typu zwracanego bez nawet void, jej
+nazwa jest taka sama jak obiektu
 
 Nazwê metody pisze siê z du¿ej litery jak i równie¿ klasy.
 Aby stworzyæ klasê piszemy:
@@ -47,7 +53,7 @@ class NazwaKlasy
 
 };
 
-Aby daæ znaæ, ¿e metoda jest metod¹ a nie funkcj¹ piszemy w 
+Aby daæ znaæ, ¿e metoda jest metod¹ a nie funkcj¹ piszemy w
 oddzielnym pliku gdzie znajduje siê cia³o metody dla przyk³adu tak (metoda zawarta w klasie):
 
 void NazwaKlasy::NazwaMetody
@@ -67,15 +73,15 @@ void BankAccount::AccountInformation()
 	std::cout << "Saldo: " << balance << " " << currency << "\n\n";
 }
 
-Nale¿y upubliczniæ klasê, poniewa¿ jej elementy s¹ domyœlnie ukryte. 
-W pliku hederowym piszemy klasê w której znajduj¹ siê nag³ówki metod, 
+Nale¿y upubliczniæ klasê, poniewa¿ jej elementy s¹ domyœlnie ukryte.
+W pliku hederowym piszemy klasê w której znajduj¹ siê nag³ówki metod,
 jeœli stworzyliœmy w³asny typ to nale¿y zapisaæ tam jego cechy. Taki przyk³ad:
 
 class BankAccount
 {
 public:
 	double balance;
-	std::string owner; 
+	std::string owner;
 	std::string currency;
 
 	void AccountInformation();
