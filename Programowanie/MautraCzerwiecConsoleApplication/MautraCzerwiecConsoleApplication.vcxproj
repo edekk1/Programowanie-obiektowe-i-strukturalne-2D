@@ -24,6 +24,7 @@
     <ProjectGuid>{f79b38f7-c462-49a1-83f4-83857a43259a}</ProjectGuid>
     <RootNamespace>MautraCzerwiecConsoleApplication</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MautraCzerwiec2022ConsoleApplication</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
