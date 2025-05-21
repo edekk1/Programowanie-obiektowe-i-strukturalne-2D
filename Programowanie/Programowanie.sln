@@ -59,7 +59,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matura", "Matura", "{8AF6E3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matura2022ConsoleApplication", "Matura2022ConsoleApplication\Matura2022ConsoleApplication.vcxproj", "{58FC2119-F72A-470B-8588-DE03C5166D5F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MautraCzerwiecConsoleApplication", "MautraCzerwiecConsoleApplication\MautraCzerwiecConsoleApplication.vcxproj", "{F79B38F7-C462-49A1-83F4-83857A43259A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MautraCzerwiec2022ConsoleApplication", "MautraCzerwiecConsoleApplication\MautraCzerwiecConsoleApplication.vcxproj", "{F79B38F7-C462-49A1-83F4-83857A43259A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaturaMaj2024ConsoleApplication", "MaturaMaj2024ConsoleApplication\MaturaMaj2024ConsoleApplication.vcxproj", "{371C41AE-A493-49C8-BD8C-E69091EE2490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +223,14 @@ Global
 		{F79B38F7-C462-49A1-83F4-83857A43259A}.Release|x64.Build.0 = Release|x64
 		{F79B38F7-C462-49A1-83F4-83857A43259A}.Release|x86.ActiveCfg = Release|Win32
 		{F79B38F7-C462-49A1-83F4-83857A43259A}.Release|x86.Build.0 = Release|Win32
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Debug|x64.ActiveCfg = Debug|x64
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Debug|x64.Build.0 = Debug|x64
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Debug|x86.ActiveCfg = Debug|Win32
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Debug|x86.Build.0 = Debug|Win32
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Release|x64.ActiveCfg = Release|x64
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Release|x64.Build.0 = Release|x64
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Release|x86.ActiveCfg = Release|Win32
+		{371C41AE-A493-49C8-BD8C-E69091EE2490}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +262,7 @@ Global
 		{349575C5-6062-49D0-BEB9-2F63B38B7700} = {6A3A5C9F-DD69-434E-A36B-51E187577D99}
 		{58FC2119-F72A-470B-8588-DE03C5166D5F} = {8AF6E3EE-AD34-4889-AFF4-690F7023CF92}
 		{F79B38F7-C462-49A1-83F4-83857A43259A} = {8AF6E3EE-AD34-4889-AFF4-690F7023CF92}
+		{371C41AE-A493-49C8-BD8C-E69091EE2490} = {8AF6E3EE-AD34-4889-AFF4-690F7023CF92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34C36E17-B9A8-4CB1-99CD-669B47983D88}
