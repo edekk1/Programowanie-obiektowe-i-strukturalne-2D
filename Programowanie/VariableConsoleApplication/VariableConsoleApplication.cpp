@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 
 //Napisz program, który wczyta od u¿ytkownika jego wiek a nastêpnie wyœwietli go na konsoli
 void task1()
