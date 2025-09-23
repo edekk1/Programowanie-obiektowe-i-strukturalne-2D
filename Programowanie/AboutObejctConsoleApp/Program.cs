@@ -18,3 +18,5 @@ int value = secondPoint.X;
 Console.WriteLine(value);
 secondPoint.X = 20;
 secondPoint.ShowInfo();
+
+/*
