@@ -84,7 +84,7 @@ int main()
 {
 	setlocale(LC_CTYPE, "polish");
 
-	/*
+	
 	showHello();
 	//jakiœ kod
 	showHello();
@@ -99,7 +99,7 @@ int main()
 	showWelcome("Anna");
 	int age = 10;
 	showWelcome("Damian", age, "ul.Krakowska 1");
-	*/
+	
 
 	//kolejnoœæ parametrów, kolejnoœæ deklaracji w funkcji np. void showWelcomeAndAge(std::string n, int w) -> "dasd", 4
 	//przeci¹¿enie funkcji - ta sama nazwa funkcji ró¿nica w parametrach
