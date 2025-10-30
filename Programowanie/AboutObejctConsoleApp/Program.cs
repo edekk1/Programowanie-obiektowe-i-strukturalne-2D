@@ -14,9 +14,10 @@ secondPoint.ShowInfo();
 
 //int value = secondPoint.GetX();
 //value = secondPoint.x;
-int value = secondPoint.X;
-Console.WriteLine(value);
-secondPoint.X = 20;
+//int value = secondPoint.X;
+//Console.WriteLine(value);
+//secondPoint.X = 20;
 secondPoint.ShowInfo();
 
-/*
+Point3D point4 = new(2, 2, 2);
+point4.ShowInfo();

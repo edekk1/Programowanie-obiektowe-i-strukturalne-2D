@@ -1,5 +1,4 @@
-﻿
-using ObjectConsoleApp;
+﻿using ObjectConsoleApp;
 
 pointStruct pointStruct;
 pointStruct.x = 5;
