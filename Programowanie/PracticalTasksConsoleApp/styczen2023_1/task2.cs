@@ -1,7 +1,7 @@
 ﻿
-namespace PracticalTaskConsoleApp.Styczeń2023_1
+namespace PracticalTasksConsoleApp.Styczeń2023_1
 {
-    internal class Task3
+    internal class task2
     {
         public void Task()
         {

@@ -1,5 +1,5 @@
 ﻿
-namespace PracticalTaskConsoleApp.Czerwiec2023_6
+namespace PracticalTasksConsoleApp.Czerwiec2023_6
 {
     internal class Task3
     {

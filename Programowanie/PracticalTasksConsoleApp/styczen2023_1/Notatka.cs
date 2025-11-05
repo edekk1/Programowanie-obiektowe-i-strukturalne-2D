@@ -1,4 +1,4 @@
-﻿namespace PracticalTaskConsoleApp.Styczeń2023_1
+﻿namespace PracticalTasksConsoleApp.Styczeń2023_1
 {
     /**********************************************
     klasa: Notatka
